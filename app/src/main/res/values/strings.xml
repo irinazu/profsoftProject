@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Profnotes</string>
+    <string name="title">PROFNOTES</string>
+    <string name="enter">Вход</string>
+    <string name="plain_text">Пожалуйста, войдите для продолжения</string>
+    <string name="hint_login">Номер телефона или логин</string>
+    <string name="hint_password">Пароль</string>
+    <string name="forget_password">Не помните свой пароль?</string>
+    <string name="forget_password_link">Восстановите пароль</string>
+    <string name="come_in">Войти</string>
+    <string name="enter_without_account"><font fgcolor='#949494'>Или </font><font fgcolor='#00FF85'>войдите без аккаунта</font><font fgcolor='#949494'>, если не хотите пользоваться всеми возможностями</font></string> <!--gray-->
+    <string name="search">Поиск по заметкам</string>
+    <string name="greetings">Доброе утро,</string>
+    <string name="name">Дарья</string>
+
+    <string name="today">Сегодня</string>
+    <string name="date">Понедельник, 11 июля</string>
+    <string name="news">Новости</string>
+    <string name="new_notes">новые заметки</string>
+    <string name="count_new_notes">4</string>
+
+    <string name="my_tasks">МОИ ЗАДАЧИ</string>
+    <string name="count_my_tasks">10</string>
+    <string name="all_tasks">Все задачи</string>
+
+    <string name="perfomance">Школа разработки 2022</string>
+    <string name="date_for_perfomance">Понедельник, 16:00 - 18:00</string>
+    <string name="perfomance_details">Первое занятие школы разработки, не пропусти</string>
+
+    <string name="status">Новое</string>
+    <string name="main_task">Выучить английский</string>
+    <string name="details_task">Научиться основным фразам</string>
+    <string name="change_status">Сменить статус</string>
+
+</resources>

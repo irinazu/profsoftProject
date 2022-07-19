@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".HomePageActivity">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp"
+        android:layout_marginLeft="20dp">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/photo">
+        </ImageView>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginLeft="12dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/greetings"
+                android:textSize="16sp"
+                android:fontFamily="@font/circe_regular"
+                android:textColor="@color/simple_text_home_page"
+                android:layout_marginTop="8dp"
+                android:height="18dp"
+                >
+
+            </TextView>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/name"
+                android:textSize="16sp"
+                android:fontFamily="@font/circe_regular"
+                android:textColor="@color/title"
+                android:height="18dp"
+                >
+            </TextView>
+        </LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_vector"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="159dp">
+
+        </ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/today"
+                    android:textSize="16sp"
+                    android:fontFamily="@font/circe_regular"
+                    android:textColor="@color/simple_text_home_page"
+                    android:height="18dp">
+
+                </TextView>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/date"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/circe_regular"
+                    android:textColor="@color/title"
+                    android:height="18dp">
+
+                </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/news"
+                android:textSize="16sp"
+                android:fontFamily="@font/circe_regular"
+                android:textColor="@color/simple_text_home_page"
+                android:height="18dp">
+
+            </TextView>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/count_new_notes"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/circe_regular"
+                    android:textColor="@color/title"
+                    android:height="18dp">
+
+                </TextView>
+                <TextView
+                    android:layout_marginLeft="2dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/new_notes"
+                    android:textSize="14sp"
+                    android:fontFamily="@font/circe_regular"
+                    android:textColor="@color/title"
+                    android:height="18dp">
+
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginLeft="20dp"
+        >
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_search"
+            >
+
+        </ImageView>
+
+        <EditText
+            android:textFontWeight="700"
+            android:textSize="14sp"
+            android:fontFamily="@font/circe_regular"
+            android:background="@color/input"
+            android:hint="@string/search"
+            android:textColorHint="@color/plain_text"
+            android:textColor="@color/plain_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:width="270dp"
+            android:height="32dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="36dp"
+            >
+
+        </EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/new_notes"
+            android:textSize="16sp"
+            android:fontFamily="@font/circe_regular"
+            android:textColor="@color/title"
+            android:height="21dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/count_new_notes"
+            android:textSize="16sp"
+            android:fontFamily="@font/circe_regular"
+            android:textColor="@color/enter_without_account"
+            android:height="21dp">
+
+        </TextView>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:orientation="horizontal">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <LinearLayout
+        android:layout_marginTop="28dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/my_tasks"
+            android:textSize="16sp"
+            android:fontFamily="@font/circe_regular"
+            android:textColor="@color/title"
+            android:height="21dp"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_marginLeft="4dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/count_my_tasks"
+            android:textSize="16sp"
+            android:fontFamily="@font/circe_regular"
+            android:textColor="@color/enter_without_account"
+            android:height="21dp">
+
+        </TextView>
+        <TextView
+            android:clickable="true"
+            android:layout_marginLeft="127dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/all_tasks"
+            android:textSize="14sp"
+            android:fontFamily="@font/circe_regular"
+            android:textColor="@color/simple_text_home_page"
+            android:height="21dp">
+
+        </TextView>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </androidx.recyclerview.widget.RecyclerView>
+</LinearLayout>

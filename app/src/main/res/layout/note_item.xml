@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="335dp"
+    android:layout_height="136dp"
+    android:orientation="vertical"
+    android:background="@color/input"
+    android:layout_marginLeft="15dp"
+    >
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:src="@drawable/ic_group_704">
+
+        </ImageView>
+        <LinearLayout
+            android:layout_marginLeft="13dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/perfomance"
+                android:textSize="16sp"
+                android:fontFamily="@font/circe_regular"
+                android:textColor="@color/title"
+                >
+
+            </TextView>
+            <TextView
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/date_for_perfomance"
+                android:textSize="14sp"
+                android:fontFamily="@font/circe_regular"
+                android:textColor="@color/simple_text_home_page"
+                android:height="21dp">
+
+            </TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="9dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:text="@string/perfomance_details"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:fontFamily="@font/circe_regular"
+            android:textColor="@color/title"
+            android:height="24dp"
+            android:lineSpacingExtra="3sp"
+            android:translationY="-1.68sp"
+            android:gravity="top"
+            >
+
+        </TextView>
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

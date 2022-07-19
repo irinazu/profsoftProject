@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter phone"
+        android:text="Prof"
+        android:digits="0123456789"
+
+        />
+
+
+
+    <TextView
+        android:layout_marginTop="142dp"
+        android:textFontWeight="800"
+        android:textSize="36sp"
+        android:fontFamily="@font/circe_regular"
+        android:text="@string/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/title"
+        android:layout_gravity="center"
+        android:letterSpacing="0.03"
+        >
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="122dp"
+        >
+        <TextView
+            android:textFontWeight="800"
+            android:textSize="24sp"
+            android:fontFamily="@font/circe_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/enter"
+            android:textColor="@color/title"
+            >
+
+        </TextView>
+        <TextView
+            android:textFontWeight="700"
+            android:textSize="12sp"
+            android:fontFamily="@font/circe_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/plain_text"
+            android:textColor="@color/plain_text"
+            android:layout_marginTop="8dp"
+            android:height="18dp"
+            >
+        </TextView>
+        <EditText
+            android:textFontWeight="700"
+            android:textSize="14sp"
+            android:fontFamily="@font/circe_regular"
+            android:background="@color/input"
+            android:hint="@string/hint_login"
+            android:textColorHint="@color/plain_text"
+            android:textColor="@color/plain_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:width="335dp"
+            android:height="40dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="12dp"
+            >
+
+        </EditText>
+        <EditText
+            android:textFontWeight="700"
+            android:textSize="14sp"
+            android:fontFamily="@font/circe_regular"
+            android:background="@color/input"
+            android:hint="@string/hint_password"
+            android:textColorHint="@color/plain_text"
+            android:textColor="@color/plain_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="11dp"
+            android:width="335dp"
+            android:height="40dp"
+            android:paddingTop="8dp"
+            android:paddingBottom="8dp"
+            android:paddingLeft="12dp"
+            >
+        </EditText>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+        <TextView
+            android:textFontWeight="700"
+            android:textSize="12sp"
+            android:fontFamily="@font/circe_regular"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/plain_text"
+            android:text="@string/enter_without_account"
+            android:paddingTop="12dp"
+            >
+        </TextView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="165dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:fontFamily="@font/circe_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/plain_text"
+                android:text="@string/forget_password"
+                >
+            </TextView>
+            <TextView
+                android:textStyle="bold"
+                android:textSize="12sp"
+                android:fontFamily="@font/circe_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/button_enter"
+                android:text="@string/forget_password_link"
+                android:clickable="true"
+                >
+            </TextView>
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="12dp"
+            android:width="335dp"
+            android:height="39dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="8dp"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:fontFamily="@font/circe_regular"
+            android:textColor="@color/background"
+            android:text="@string/come_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/button_enter">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
